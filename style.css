@@ -1,0 +1,416 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+
+    background: rgb(73, 73, 73);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}    
+
+/* logo section*/ 
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 13px 37px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding-left: 100px;
+}
+
+/* Navigation links section*/
+
+#navigation a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#navigation a:active{
+    color: black;
+
+}
+
+
+.navigation{
+    justify-content: space space-around;
+}
+
+.navigation a{
+    padding-right: 100px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 23px;
+}
+
+/* landing background/ intro of the web */ 
+
+.fp-leading{
+    padding-left: 500px;
+    padding-top: 80px;
+}
+
+#header{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(68, 199, 160);
+    background-size: cover;
+    background-position: center;
+
+    height: 800px;
+    width: auto;
+}
+
+#header h1{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+
+
+#services img{
+
+}
+
+#header p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 500px;
+    width: 100%;
+    color: white;
+}
+
+.centrestar{
+    padding-left: 540px;
+}
+
+.frontstar{
+    padding-left: 560px;
+}
+
+
+
+/* paragraph edit section*/
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 50px;
+    width: 100%;
+}
+
+/* heading edit section*/
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-right: 50px;
+    padding-top: 30px;
+    color: white;
+}
+
+#portfolio h2{
+    color: black;
+}
+
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-left: 50px;
+}
+
+/* box edit section*/
+
+.container{
+    display: grid;
+    padding: 100px;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    padding-left: 100px;
+    justify-content: center;
+    width: 300;
+    height: 300px;
+    
+    
+}
+
+
+
+
+
+.item1{
+  
+    
+    background-size: cover;
+    
+    
+}
+
+ .item2{
+    
+    background-size: cover;
+ }
+ .item3{
+   
+
+    background-size: cover;
+ }
+ .item4{
+   
+
+    background-size: cover;
+ }
+ .item5{
+  
+    background-size: cover;
+ }
+ .item6{
+    
+    background-size: cover;
+ }
+
+ 
+  #services{
+    padding: 25px ;
+    text-align: center; color: white;
+    height: 350px;
+    background-color: rgb(68, 199, 160);;
+ }
+
+ 
+ .word{
+    display: flex;
+    color: white;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-left: 50px;
+ }
+
+ .box{
+
+    width: 100px;
+    height: 50px;
+    border: 2px black solid;
+    margin-left: 550px;
+    margin-bottom: 100px;
+ }
+ .free{
+    margin-left: 0px;
+ }
+ hr{
+    width: 500px;
+    padding-left: 200px;
+ }
+ .king{
+   gap: 20px;
+   position: relative;
+   top: 30px;
+   bottom: 100px;
+   margin-left: 500px;
+    justify-content: center;
+    flex-direction: column;
+   display: flex;
+
+ }
+
+ .name{
+    width: 300px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+ }
+ 
+ .email{
+    width: 300px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+ }
+ .Phone-number{
+    width: 300px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+ }
+ .message{
+    width: 300px;
+    height: 100px;
+ }
+
+ button{
+    background-color: rgb(68, 199, 160);;
+    height: 50px;
+    width: 70px;
+    border-radius: 10px;
+    border: none;
+ }
+ 
+ 
+ .footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #737373;
+    position: relative;
+    top: 50px;
+    height: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+ }
+
+ .loc{
+    position: relative;
+    left: 250px;
+    color: white;
+    top: 50px;
+
+ }
+
+.arnd{
+    color: white;
+    position: relative;
+    left: 450px;
+    width: 800px;
+    top: 50px;
+
+}
+
+.about{
+    color: white;
+    position: relative;
+    left: 550px;
+    width: 900px; 
+    top: 50px;
+
+}
+
+.first{
+    position: relative;
+    right: 320px;
+    top: 80px;
+    color: white;
+}
+.second{
+    position: relative;
+    top: 80px;
+    right: 100px;
+    color: white;
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    position: relative;
+    top: 70px;
+    right: 600px;
+    
+    
+    
+}
+
+.facebook{
+    width: 30px;
+    background-size: contain;
+    border-radius: 100px;
+    height: 30px;
+    align-items: center;
+    position: relative;
+    right: 120px;
+    top: 30px;
+    border: 1px white solid;
+}
+.fb2{
+    position: relative;
+    top: 2px; 
+    left: 2px;
+
+}
+.twitter{
+    width: 30px;
+    background-size: contain;
+    border-radius: 500px;
+    height: 30px;
+    align-items: center;
+    position: relative;
+    bottom: 30px; 
+    border: 1px white solid;
+    right: 40px;
+}
+.twit2{
+    position: relative;
+    top: 2px; 
+    left: 2px;
+}
+
+.github{
+    width: 30px;
+    background-size: contain;
+    border-radius: 500px;
+    height: 30px;
+    align-items: center;
+    position: relative;
+    bottom: 93px;
+    right: 80px;
+    border: 1px white solid;
+
+    
+    
+}
+.git2{
+    position: relative;
+    top: 2px; 
+    left: 2px;
+}
+.net{
+    width: 30px;
+    background-size: contain;
+    border-radius: 500px;
+    height: 30px;
+    align-items: center;
+    position: relative;
+    bottom: 153px;
+    border: 1px white solid;
+
+}
+.net2{
+    position: relative;
+    top: 2px; 
+    left: 2px;
+}
+
+    .fp{
+        background-color: #423c3c;
+        height: 100px;
+    }
+    .mak{
+        position: relative;
+        left: 500px;
+        top: 60px;
+        color: white;
+    }
+
+
+
+
+    
+
+
